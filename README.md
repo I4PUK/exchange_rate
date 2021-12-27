@@ -1,16 +1,17 @@
-# exchange_rate
+# exchange_rate - мобильное приложение показа курса валют
 
-A new Flutter project.
+## Технологии: 
+  - BLoC
+  - Http
+  - json_serialization
 
-## Getting Started
+###
+На данный момент приложение получает список всех валютных пар которое предоставляет API. Также показываются курсы валютных пар EUR/RUB, USD/RUB. 
 
-This project is a starting point for a Flutter application.
+Задачи на будущее:
+- Реализовать выбор валютной пары
+- Реализовать обновление значений курса валют жестом pull to refresh
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Превью:
+![Screenshot_1640635047](https://user-images.githubusercontent.com/47809649/147503381-73435a96-265f-4320-8a69-2a138dea46ee.png)
+![Screenshot_1640635060](https://user-images.githubusercontent.com/47809649/147503382-79d14694-3ef8-46e6-a113-408146311c74.png)
